@@ -42,6 +42,6 @@ To use Vue in markdown, related components are most defined at [theme/components
 
 ## License
 
-Copyright (c) PCTF. All rights reserved.
+Copyright (c) Newstar CTF. All rights reserved.
 
 Licensed under the [MIT](LICENSE) License.
