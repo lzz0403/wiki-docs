@@ -10,12 +10,11 @@ information: |
   Coming soon......    Date:2026.11.01-2026.12.01
 
 actions:
-  -
-  - usevue: index
-  - text: 报名参赛
-    type: primary
-    size: large
-    click: signup
+  - - usevue: index
+    - text: 报名参赛
+      type: primary
+      size: large
+      click: signup
 
   - - text: 快速入门
       link: /learn/
