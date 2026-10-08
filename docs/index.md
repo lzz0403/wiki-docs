@@ -11,10 +11,6 @@ information: |
 
 actions:
   - - usevue: index
-    - text: 报名参赛
-      type: primary
-      size: large
-      click: signup
 
   - - text: 快速入门
       link: /learn/
