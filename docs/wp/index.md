@@ -11,5 +11,5 @@ hero:
 features:
   - title: PCTF 2025 官方 WriteUp
     # details: '2025.11.1 - 2025.11.30'
-    link: /wp/2025/
+    link: https://gz.imxbt.cn/games/33
 ---

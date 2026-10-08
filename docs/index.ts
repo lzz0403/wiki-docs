@@ -4,10 +4,10 @@ export function training() {}
 
 export function signup() {
   const nowdate = new Date();
-  const signdate = [new Date("2025-11-16 9:00:00"), new Date("2025-11-16 22:00:00")];
+  const signdate = [new Date("2026-11-01 08:00:00"), new Date("2026-12-01 00:00:00")];
   if (nowdate.getTime() < signdate[0].getTime()) {
     ElMessage({
-      message: "公开赛道报名通道于 11.16 9:00 开放",
+      message: "公开赛道报名通道于 11.01 08:00 开放",
       type: "warning",
     });
   } else if (nowdate.getTime() > signdate[1].getTime()) {
@@ -22,8 +22,8 @@ export function signup() {
 
 export function participate(channel: "internal" | "external") {
   const time = {
-    internal: [new Date("2025-11-01 09:00:00").getTime(), new Date("2025-11-30 22:00:00").getTime()],
-    external: [new Date("2025-11-16 09:00:00").getTime(), new Date("2025-11-16 22:00:00").getTime()],
+    internal: [new Date("2026-11-01 08:00:00").getTime(), new Date("2026-12-01 00:00:00").getTime()],
+    external: [new Date("2026-11-01 08:00:00").getTime(), new Date("2026-12-01 00:00:00").getTime()],
   };
   const now = Date.now();
   const gap = time[channel];
